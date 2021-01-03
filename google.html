@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<style>
+    nav{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        position: relative;
+        grid-column-gap: 15px;
+        left: 78%;
+        width: 12vw;
+        margin-top: 20px;
+                
+    }
+    .top-buttons{
+        font-size: 15px;
+        color: black;
+        text-decoration: none;
+        opacity: 0.8;
+    }
+    .products{
+        width: 10px;
+    }
+    .oturum{
+        background-color: blue;
+        color: white;
+    }
+    main{
+        display: grid;
+        position: relative;
+        left: 25%;
+        justify-content: center;
+        
+        width: 50vw;
+        margin-top: 5%;
+        grid-row-gap: 20px;
+    }
+    .companylogo{
+        text-align: center;
+    }
+       
+        
+    
+    .search-bar{
+        width: 100%;
+        height: 100%;
+        
+        position: relative;
+    }
+    .buyutec{
+        position: absolute;
+        width: 10px;
+        bottom: 43%;
+        left: 25%;
+    }
+    .lowerbuttons{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
+        padding-right: 3%;
+        
+        grid-column-gap: 10px;
+        
+    }
+    .search-buttons{
+        background-color: rgba(245, 245, 245, 0.658);
+    }
+    .tiny-note{
+        font-size: 10px;
+        text-align: center;
+    }
+</style>
+<html>
+    <head>
+        <title>Google</title>
+    </head>
+    <body>
+        <nav class="nav-buttons">
+            <a href="https://mail.google.com/mail/?tab=wm&ogbl" class="top-buttons">Gmail</a>
+            <a href="https://www.google.com.tr/imghp?hl=tr&tab=wi&ogbl" class="top-buttons">Görseller</a>
+            <a href="https://www.google.com.tr/intl/tr/about/products?tab=wh"><img src="https://raw.githubusercontent.com/TarekVisch/google-homepage/5b6d9ae9dddf6d333ae383d82b3dfe693b886a1f/images/google-apps.svg" class="products"></a> 
+            <a href="https://accounts.google.com/ServiceLogin?hl=tr&passive=true&continue=https://www.google.com/&ec=GAZAAQ"><input type="button" class="oturum" value="Oturum açın"></a>
+        </nav>
+        <main>
+            <div class="companylogo">
+                <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" class="logo">
+            </div>
+            <div class="search-part">
+                <input type="text" class="search-bar">
+                <img src="https://im0-tub-com.yandex.net/i?id=2c4017c1d086ffb09fc10073a357b5df&n=13" class="buyutec">
+            </div>
+            <div class="lowerbuttons">
+                <input type="button" value="Google'da Ara" class="search-buttons">
+                <input type="button" value="Kendimi şanlı hissediyorum" class="search-buttons">   
+            </div> 
+            <div class="last-note">
+                <p class="tiny-note">Google'ı kullanabileceğiniz diğer diller: <a href="https://www.google.com/setprefs?sig=0_8QVfcp0swiE2CmLTVZzmxROpp-s%3D&hl=en&source=homepage&sa=X&ved=0ahUKEwip-LHm2P_tAhUTjhQKHfK-CGIQ2ZgBCA4">English</a></p>
+            </div>   
+        </main>
+    </body>
+</html>
